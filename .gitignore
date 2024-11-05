@@ -1,0 +1,39 @@
+# Python cache files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Database files (if applicable, mostly for SQLite; MySQL typically doesn't have files like this)
+db.sqlite3  # Only if you're using SQLite, remove if using MySQL
+
+# MySQL related (if you have SQL dumps or similar)
+*.sql
+
+# Sensitive environment configuration
+.env            # Environment variables file
+local_settings.py  # Local settings file with sensitive info
+
+# Media files (user-uploaded files)
+media/
+
+# Static files (collected static files)
+staticfiles/
+static/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# MacOS specific files
+.DS_Store

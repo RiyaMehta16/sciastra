@@ -1,0 +1,22 @@
+<!-- blog/templates/blog/blog_list.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog List</title>
+  </head>
+  <body>
+    <h1>Blog Posts</h1>
+    <ul>
+      {% for post in posts %}
+      <li>
+        <a href="{% url 'blog_detail' post.id %}">{{ post.title }}</a>
+        <span
+          >by {{ post.author }} at {{ post.published_date|date:"M d, Y" }}</span
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

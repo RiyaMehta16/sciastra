@@ -1,0 +1,14 @@
+<!-- courses/templates/courses/payment_confirmation.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Successful</title>
+  </head>
+  <body>
+    <h1>Payment Successful</h1>
+    <p>Your enrollment in {{ course.title }} is confirmed!</p>
+    <a href="{% url 'course_list' %}">Back to Course List</a>
+  </body>
+</html>
