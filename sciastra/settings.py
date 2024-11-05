@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sciastra_db',
-        'USER': 'root',  # Replace with your MySQL username
-        'PASSWORD': 'Riya@2000',  # Replace with your MySQL password
+        'USER': '',  # Replace with your MySQL username
+        'PASSWORD': '',  # Replace with your MySQL password
         'HOST': 'localhost',
         'PORT': '3306',  # Default MySQL port
     }
